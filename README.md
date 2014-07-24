@@ -13,7 +13,7 @@ Include below scripts in your page.
 <script type="text/javascript" src="js/custom.js"></script>
 ```
 #### Respo-Menu Insitalizing
-```
+```javascript
 $("#menu").respomenu({
 	select : $("select#devi-menu")
 });
