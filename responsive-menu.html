@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>.:: Responsive Menu ::.</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div id="device-menu">
+    	<select name="devi-menu" id="devi-menu"></select>
+    </div>
+    <div id="menu">
+		<ul class="nav">
+          <li><a href="#">Profile</a>
+          	<ul>
+              <li><a href="#">Introduction</a></li>
+              <li><a href="testing.html">testing</a></li>
+              <li><a href="#">Manage Archive</a></li>
+              <li><a href="#">Change Password</a></li>
+              <li><a href="#">Logout</a></li>
+            </ul>
+          </li>
+          <li> <a href="#"> Brand Systems</a>
+            <ul>
+              <li><a href="#">Car New Zealand</a></li>
+              <li><a href="#">Vans Australia</a></li>
+              <li><a href="#">Trucks Australia</a></li>
+            </ul>
+          </li>
+          <li> <a href="#"> Reports</a>
+            <ul>
+              <li><a href="#">Dashboard</a></li>
+			  <li><a href="#">NPS Dashboard</a></li>
+			  <li><a href="#">Dealer</a></li>
+			  <li><a href="#">Event Type</a></li>
+			  <li><a href="#">Response Summary</a></li>
+			  <li><a href="#">Overall Summary</a></li>
+			  <li><a href="#">CTE Report</a></li>
+            </ul>
+          </li>
+          <li> <a href="#"> Users</a>
+            <ul>
+              <li><a href="#">List Users</a></li>
+              <li><a href="#">Add Users</a></li>
+            </ul>
+          </li>
+          <li> <a href="#"> Events</a>
+            <ul>
+              <li><a href="#">List Events</a></li>
+			  <li><a href="#">List Optouts</a></li>
+			  <li><a href="#">Code Red Report</a></li>
+			  <li><a href="#">Import Log</a></li>
+			  <li><a href="#">Alert Log</a></li>
+            </ul>
+          </li>
+          <li> <a href="#"> Dealers</a>
+            <ul>
+              <li><a href="#">List Dealers</a></li>
+			  <li><a href="#">Add Dealer</a></li>
+			  <li><a href="#">List Staff</a></li>
+			  <li><a href="#">Add Staff</a></li>
+			  <li><a href="#">Distribution List</a></li>
+            </ul>
+          </li>
+          <li> <a href="#"> Content</a>
+            <ul>
+              <li><a href="#">List Content Pages</a></li>
+			  <li><a href="#">System message</a></li>
+            </ul>
+          </li>
+          <li> <a href="#"> Keyword Text Set</a>
+            <ul>
+              <li><a href="#">Add Keyword Text Set</a></li>
+            </ul>
+          </li>
+       </ul>
+    </div>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/custom.js"></script>
+<script type="text/javascript">
+//Respo-Menu Insitalizing
+$("#menu").respomenu({
+	select : $("select#devi-menu")
+});
+</script>
+</body>
+</html>
